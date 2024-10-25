@@ -1,0 +1,36 @@
+.nav-fix-height {
+    height: 100vh;
+}
+
+@media only screen and (min-width: 576px) {
+    .main-h1-center {
+        font-size: 2.5rem!important;
+    }    
+}
+
+@media only screen and (min-width: 768px) {
+    .main-h1-center {
+        font-size: 3rem!important;
+    }    
+}
+
+@media only screen and (min-width: 992px) {
+    .nav-fix-height {
+        width: 18.75rem;
+    }
+    .main-h1-center {
+        font-size: 3.5rem!important;
+    } 
+}
+
+@media only screen and (min-width: 1200px) {
+    .main-h1-center {
+        font-size: 4rem!important;
+    }    
+}
+
+@media only screen and (max-width: 991px) {
+    .nav-fix-height {
+        height: auto;
+    }
+}
