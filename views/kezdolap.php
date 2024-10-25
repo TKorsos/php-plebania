@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="hu">
 
 <head>
     <meta charset="utf-8">
@@ -43,31 +43,116 @@
                 </section>
             </nav>
             <!-- tartalmi rész -->
-            <main class="col py-5 d-flex flex-column gap-5">
-                <header class="text-center pb-5">
+            <main class="col pb-5 px-0 d-flex flex-column gap-5">
+                <!-- MEGJEGYZÉS: háttérkép keresése -->
+                <header class="text-center d-flex justify-content-center align-items-center pb-5 header-fix-height header-bg">
                     <h1 class="d-flex flex-column gap-3 text-center">
-                        <span>
+                        <span class="main-h1-top">
                             <i>Szeretettel köszöntünk honlapunkon!</i>
                         </span>
                         <span class="main-h1-center">
                             <strong>Szent Adalbert Plébánia</strong>
                         </span>
-                        <span class="pt-3">
+                        <span class="main-h1-bottom pt-3">
                             <strong>Boldog Meszlényi Zoltán Templom</strong>
                         </span>
                     </h1>
                 </header>
+
+                <section class="px-3 px-md-5 text-center d-flex flex-column gap-5">
+                    <article class="d-flex flex-column gap-3">
+                        <!-- MEGJEGYZÉS: betűméret szrozók -> 2.5, 1.4, 1.7, 1.2 -->
+                        <h2>
+                            <strong>
+                                Templom, plébánia, urnatemető egy helyen
+                            </strong>
+                        </h2>
+                        <h3>
+                            <strong>
+                                AKADÁLYMENTESÍTETT
+                            </strong>
+                        </h3>
+                        <div>
+                            <strong>
+                                1119 Budapest, Etele út 3
+                            </strong>
+                        </div>
+                        <div>
+                            <!-- MEGJEGYZÉS: link -->
+                            <strong>
+                                KATT IDE EGY VIRTUÁLIS SÉTÁÉRT A TEMPLOM KÖRÜL
+                            </strong>
+                        </div>
+                    </article>
+                    <article class="d-flex flex-column gap-5 d-md-flex flex-md-row gap-md-3">
+                        <?php
+                            // MEGJEGYZÉS: időpontok teszt jellegűek nem a valós!
+                            for($i = 1; $i <= 3; ++$i) {
+                                echo '
+                                <div class="d-flex flex-column gap-5">
+                                    <div>
+                                        <picture>
+                                            <img src="./assets/imgs/pics/minta.jpg" alt="szajkó'.$i.'" class="w-100">
+                                        </picture>
+                                    </div>
+                                    <div class="d-flex flex-column gap-3">
+                                        <h3>
+                                            MISEREND
+                                        </h3>
+                                        <h3>
+                                            a Boldog Meszlényi Zoltán Templomban
+                                        </h3>
+                                        <div>
+                                            <span>Hétfő, kedd szerda és csütörtök:</span>
+                                            <span>7:00 és 8:00</span>
+                                        </div>
+                                        <div>
+                                            <span>Péntek:</span>
+                                            <span>7:00, 8:00 és 18:00</span>
+                                        </div>
+                                        <div>
+                                            <span>Szombat:</span>
+                                            <span>8:00, 16:00* és 18:00</span>
+                                        </div>
+                                        <div>
+                                            <span>Vasárnap:</span>
+                                            <span>7:00, 8:00, 9:00, 10:30 és 18:00</span>
+                                        </div>
+                                        <div>
+                                            <span>
+                                                Adventi időben roráték hétfőtől péntekig reggel 6 órakor vannak és 7 órai szentmise elmarad.
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <span>
+                                                *Koreai közösség miséje.
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <span>
+                                                A fentiektől eltérő miserend külön kerül meghirdetésre.
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                ';
+                            }
+                        ?>
+                    </article>
+                </section>
+                
                 <?php
                     for($i = 1; $i <= 10; ++$i) {
-                        echo "
-                            <section>
+                        // bg-danger törölni!
+                        echo '
+                            <section class="px-3 px-md-5 bg-danger">
                                 <article>
                                     <p>
                                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore error unde, adipisci pariatur eveniet iure cum, sit maiores distinctio deserunt ullam nobis similique, possimus commodi! Earum optio nesciunt aut incidunt distinctio natus neque? Laborum, eum voluptas. Animi voluptatem eligendi id maiores, error ipsum molestias?
                                     </p>
                                 </article>
                             </section>
-                        ";
+                        ';
                     }
                 ?>
             </main>
