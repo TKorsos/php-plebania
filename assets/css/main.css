@@ -1,5 +1,16 @@
-.nav-fix-height {
+.nav-fix-height, .header-fix-height {
     height: 100vh;
+}
+
+.header-bg {
+    background: url("./../imgs/bg/bg.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.main-h1-top, .main-h1-center, .main-h1-bottom {
+    background-color: hsla(0, 0%, 0%, .5);
+    color: hsl(0, 0%, 90%);
+    padding: .5rem;
 }
 
 @media only screen and (min-width: 576px) {
@@ -33,4 +44,13 @@
     .nav-fix-height {
         height: auto;
     }
+    .header-fix-height {
+        height: 75vh;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .header-fix-height {
+        height: 50vh;
+    }    
 }
