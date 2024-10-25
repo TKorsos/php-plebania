@@ -140,6 +140,66 @@
                         ?>
                     </article>
                 </section>
+
+                <section class="px-3 px-md-5 text-center d-flex flex-column gap-5">
+                    <article class="d-flex flex-column gap-5">
+                        <!-- h2 -> 44.4px? -->
+                        <h2>
+                            <strong>Közelgő jubileumunk hírei</strong>
+                        </h2>
+                        <div>
+                            <picture>
+                                <img src="./assets/imgs/pics/minta.jpg" alt="szajkó" class="w-100">
+                            </picture>
+                        </div>
+                    </article>
+                    <article class="d-flex flex-column gap-3 text-start">
+                        <!-- h3 -> 2.5rem? -->
+                        <h3>
+                            <strong>Folytatódik a virtuális időutazás</strong>
+                        </h3>
+                        <div>
+                            <p>
+                                <strong>Lassan tíz éve</strong>, 2014.októnber 31-én <strong>szentelték fel templomunkat</strong>, a Boldog Meszlényi Zoltán-templomot.
+                            </p>
+                            <p>
+                                Ebből az alkalomból egy <strong>virtuális időutazást indítottunk</strong> honlapunkon.
+                            </p>
+                            <p>
+                                <strong>Itt az első videó:</strong>
+                            </p>
+                            <div class="d-flex justify-content-center text-center">
+                                <div class="w-75 h-75">
+                                    <iframe class="w-100" height="600" src="//www.youtube-nocookie.com/embed/0Jvt5U8YTAE?wmode=opaque" title="" frameborder="0" allowfullscreen="1" loading="lazy"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="d-flex flex-column gap-3">
+                        <!-- h3 -> 2.5rem? -->
+                        <h3>
+                            <strong>Virtuális időutazás</strong>
+                        </h3>
+                        <div>
+                            <p>
+                                <strong>Lassan tíz éve</strong>, 2014.októnber 31-én <strong>szentelték fel templomunkat</strong>, a Boldog Meszlényi Zoltán-templomot.
+                            </p>
+                            <p>
+                                Ebből az alkalomból egy <strong>virtuális időutazást indítottunk</strong> honlapunkon.
+                            </p>
+                            <p>
+                                <strong>Itt a második videó:</strong>
+                            </p>
+                            <div class="d-flex justify-content-center text-center">
+                                <div class="w-75 h-75">
+                                    <iframe class="w-100" height="600" src="//www.youtube-nocookie.com/embed/ZVUfgbklIsU?wmode=opaque" title="" frameborder="0" allowfullscreen="1" loading="lazy"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+
+                <!-- következő section Emlékkönyv ajándékba? -->
                 
                 <?php
                     for($i = 1; $i <= 10; ++$i) {
