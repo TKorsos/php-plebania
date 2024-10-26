@@ -13,6 +13,26 @@
     padding: .5rem;
 }
 
+.sub-0-heading-3 {
+    font-size: 2rem;
+}
+
+.sub-1-heading-3 {
+    font-size: 1.4rem;
+}
+
+.sub-1-heading-3-color {
+    color: hsl(180, 0%, 65%);
+}
+
+.sub-2-heading-3 {
+    font-size: 1.3rem;
+}
+
+.sub-3-heading-3 {
+    font-size: 1.1rem;
+}
+
 .img-link-position-main {
     position: relative;
 }
@@ -34,13 +54,16 @@
 @media only screen and (min-width: 576px) {
     .main-h1-center {
         font-size: 2.5rem!important;
+    }
+    .main-heading-2 {
+        font-size: 2rem;
     }    
 }
 
 @media only screen and (min-width: 768px) {
     .main-h1-center {
         font-size: 3rem!important;
-    }    
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -49,7 +72,10 @@
     }
     .main-h1-center {
         font-size: 3.5rem!important;
-    } 
+    }
+    .main-heading-2 {
+        font-size: 2.5rem;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
