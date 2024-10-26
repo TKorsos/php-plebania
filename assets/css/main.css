@@ -8,9 +8,27 @@
 }
 
 .main-h1-top, .main-h1-center, .main-h1-bottom {
-    background-color: hsla(0, 0%, 0%, .5);
+    background-color: hsla(0, 0%, 0%, .7);
     color: hsl(0, 0%, 90%);
     padding: .5rem;
+}
+
+.img-link-position-main {
+    position: relative;
+}
+
+.img-link-position-main, .img-link-position-sub-1, .img-link-position-sub-2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.img-link-position-sub-1 {
+    position: absolute;
+    bottom: 0;
+    padding: .5rem 1rem;
+    background-color: hsla(0, 0%, 0%, .7);
+    color: hsl(0, 0%, 90%);
 }
 
 @media only screen and (min-width: 576px) {
