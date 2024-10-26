@@ -55,14 +55,14 @@
                 </header>
                 <section class="px-3 px-md-5 text-center d-flex flex-column gap-5">
                     <article class="d-flex flex-column gap-3">
-                        <h2>
+                        <h2 class="main-heading-2">
                             <strong>
                                 Templom, plébánia, urnatemető egy helyen
                             </strong>
                         </h2>
-                        <h3>
+                        <h3 class="sub-1-heading-3 sub-1-heading-3-color text-uppercase">
                             <strong>
-                                AKADÁLYMENTESÍTETT
+                                Akadálymentesített
                             </strong>
                         </h3>
                         <div>
@@ -87,10 +87,10 @@
                                         </picture>
                                     </div>
                                     <div class="d-flex flex-column gap-3">
-                                        <h3>
-                                            MISEREND
+                                        <h3 class="sub-2-heading-3 text-uppercase">
+                                            Miserend
                                         </h3>
-                                        <h3>
+                                        <h3 class="sub-3-heading-3">
                                             a Boldog Meszlényi Zoltán Templomban
                                         </h3>
                                         <div>
@@ -133,7 +133,7 @@
                 </section>
                 <section class="px-3 px-md-5 text-center d-flex flex-column gap-5">
                     <article class="d-flex flex-column gap-5">
-                        <h2>
+                        <h2 class="main-heading-2">
                             <strong>Közelgő jubileumunk hírei</strong>
                         </h2>
                         <div class="d-flex justify-content-center">
@@ -145,7 +145,7 @@
                         </div>
                     </article>
                     <article class="d-flex flex-column gap-3 text-start">
-                        <h3>
+                        <h3 class="sub-0-heading-3">
                             <strong>Virtuális időutazásunk a végéhez közeledik</strong>
                         </h3>
                         <div>
@@ -168,7 +168,7 @@
                         </div>
                     </article>
                     <article class="d-flex flex-column gap-3 text-start">
-                        <h3>
+                        <h3 class="sub-0-heading-3">
                             <strong>Folytatódik a virtuális időutazás</strong>
                         </h3>
                         <div>
@@ -191,7 +191,7 @@
                         </div>
                     </article>
                     <article class="d-flex flex-column gap-3 text-start">
-                        <h3>
+                        <h3 class="sub-0-heading-3">
                             <strong>Virtuális időutazás</strong>
                         </h3>
                         <div>
@@ -214,7 +214,7 @@
                         </div>
                     </article>
                     <article class="d-flex flex-column gap-3 text-start">
-                        <h3>
+                        <h3 class="sub-0-heading-3">
                             <strong>Emlékkönyv ajándékba?</strong>
                         </h3>
                         <div class="d-flex justify-content-center">
@@ -228,7 +228,7 @@
                 </section>
                 <section class="px-3 px-md-5 text-center d-flex flex-column gap-5">
                     <article class="d-flex flex-column gap-3">
-                        <h2>
+                        <h2 class="main-heading-2">
                             <strong>Aktuális hirdetéseink</strong>
                         </h2>
                     </article>
@@ -269,11 +269,14 @@
                         </div>
                     </article>
                     <article class="d-flex flex-column gap-3 text-start">
-                        <h3>
-                            <strong>ÉVKÖZI 29. VASÁRNAP</strong>
+                        <h3 class="sub-0-heading-3 text-uppercase">
+                            <strong>Évközi 29. vasárnap</strong>
                         </h3>
-                        <p>
-                            <strong>Hirdetéseink 2024. október 20.</strong>
+                        <p class="sub-1-heading-3">
+                            <strong class="d-flex gap-3">
+                                <span>Hirdetéseink</span>
+                                <span>2024. október 20.</span>
+                            </strong>
                         </p>
                         <ul class="list-group list-group-numbered">
                             <li class="list-group-item border-0 px-0">
@@ -319,12 +322,12 @@
                         </ul>
                     </article>
                     <article class="d-flex flex-column gap-3">
-                        <h2>
+                        <h2 class="main-heading-2">
                             <strong>
                                 Aktuális kiadványaink itt elérhetőek:
                             </strong>
                         </h2>
-                        <h3>
+                        <h3 class="sub-1-heading-3 sub-1-heading-3-color">
                             <strong>
                                 A nyári időszakban kiadványaink megjelenése szünetel.
                             </strong>
@@ -343,12 +346,12 @@
                 </section>
                 <section class="px-3 px-md-5 text-center d-flex flex-column gap-5">
                     <article class="d-flex flex-column gap-3">
-                        <h2>
+                        <h2 class="main-heading-2">
                             <strong>
                                 A honlap tartalmai
                             </strong>
                         </h2>
-                        <h3>
+                        <h3 class="sub-1-heading-3 sub-1-heading-3-color">
                             <strong>
                                 További információkért kattintson a képre!
                             </strong>
@@ -357,23 +360,25 @@
                     <article class="container-fluid px-0">
                         <div class="row row-cols-1 row-cols-md-3 g-5 g-md-3">
                         <?php
-                            for($i = 1; $i <= 9; ++$i) {
-                                echo '
-                                    <div class="col">
-                                        <a class="img-link-position-main text-center">
-                                            <div class="ratio ratio-1x1">
-                                                <picture>
-                                                    <img src="./assets/imgs/pics/minta.jpg" alt="szajkó'.$i.'" class="w-100 h-100">
-                                                </picture>
-                                            </div>
-                                            <div class="img-link-position-sub-1">
-                                                <span class="img-link-position-sub-2">
-                                                    Link '.$i.'
-                                                </span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                ';
+                            foreach($this->navigacioView() as $nav) {
+                                if($nav != "kezdőlap") {
+                                    echo '
+                                        <div class="col">
+                                            <a href="#" class="img-link-position-main text-center">
+                                                <div class="ratio ratio-1x1">
+                                                    <picture>
+                                                        <img src="./assets/imgs/pics/minta.jpg" alt="'.$nav.'" class="w-100 h-100">
+                                                    </picture>
+                                                </div>
+                                                <div class="img-link-position-sub-1">
+                                                    <span class="img-link-position-sub-2">
+                                                        '.(ucfirst($nav)).'
+                                                    </span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    ';
+                                }
                             }
                         ?>
                         </div>
