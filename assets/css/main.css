@@ -89,6 +89,15 @@
     }    
 }
 
+@media only screen and (max-width: 1024px) {
+    .udvozlo-font {
+        font-size: .9rem!important;
+    }
+    .copyright-font {
+        font-size: .8rem;
+    }
+}
+
 @media only screen and (max-width: 991px) {
     .nav-fix-height {
         height: auto;
@@ -100,10 +109,16 @@
         width: 60px;
         height: 60px;
     }
+    .udvozlo-font {
+        font-size: .8rem!important;
+    }
 }
 
 @media only screen and (max-width: 575px) {
     .header-fix-height {
         height: 50vh;
-    }    
+    }
+    .udvozlo-font {
+        font-size: .7rem!important;
+    }
 }
