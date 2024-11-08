@@ -14,7 +14,9 @@
         <div class="row">
             <nav class="col-lg-3 text-center d-flex flex-column justify-content-between py-5 sticky-top nav-fix-height">
                 <section>
-                    <div>logó helye</div>
+                    <div>
+                        <img src="./assets/imgs/logo/templom_logo.png" alt="templom logó" class="logo-pic">
+                    </div>
                     <div>
                         <strong>Szeretettel köszöntünk honlapunkon!</strong>
                     </div>
@@ -358,12 +360,12 @@
                         </h3>
                     </article>
                     <article class="container-fluid px-0">
-                        <div class="row row-cols-1 row-cols-md-3 g-5 g-md-3">
+                        <div class="row row-cols-1 row-cols-md-3">
                         <?php
                             foreach($this->navigacioView() as $nav) {
                                 if($nav != "kezdőlap") {
                                     echo '
-                                        <div class="col">
+                                        <div class="col pb-5 pb-md-4">
                                             <a href="#" class="img-link-position-main text-center">
                                                 <div class="ratio ratio-1x1">
                                                     <picture>
