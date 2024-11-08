@@ -3,8 +3,8 @@
 }
 
 .header-bg {
-    background: url("./../imgs/bg/bg.jpg") center no-repeat;
-    background-size: cover;
+    background: url("./../imgs/bg/templom_bg.jpg") no-repeat;
+    background-size: 100% 100%;
 }
 
 .main-h1-top, .main-h1-center, .main-h1-bottom {
@@ -51,6 +51,11 @@
     color: hsl(0, 0%, 90%);
 }
 
+.logo-pic {
+    width: 90px;
+    height: 90px;
+}
+
 @media only screen and (min-width: 576px) {
     .main-h1-center {
         font-size: 2.5rem!important;
@@ -90,6 +95,10 @@
     }
     .header-fix-height {
         height: 75vh;
+    }
+    .logo-pic {
+        width: 60px;
+        height: 60px;
     }
 }
 
