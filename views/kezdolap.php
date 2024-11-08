@@ -12,36 +12,8 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <nav class="col-lg-3 text-center d-flex flex-column justify-content-between py-5 sticky-top nav-fix-height">
-                <section>
-                    <div>
-                        <img src="./assets/imgs/logo/templom_logo.png" alt="templom logó" class="logo-pic">
-                    </div>
-                    <div>
-                        <strong>Szeretettel köszöntünk honlapunkon!</strong>
-                    </div>
-                </section>
-                <section>
-                    <ul class="list-group text-uppercase">
-                        <?php
-                            foreach($this->navigacioView() as $nav) {
-                                echo '<li class="list-group-item border-0">'.$nav.'</li>';
-                            }
-                        ?>
-                    </ul>
-                </section>
-                <section>
-                    <div>
-                        <span>
-                            © 2022  Szent Adalbert Plébánia, 1119 Budapest, Etele út 3.
-                        </span>
-                    </div>
-                    <div>
-                        Sütik
-                    </div>
-                </section>
-            </nav>
-            <main class="col pb-5 px-0 d-flex flex-column gap-5">
+            <?php include("nav.php") ?>
+            <main class="col pb-5 px-0 d-flex flex-column gap-5 z-n1">
                 <header class="text-center d-flex justify-content-center align-items-center pb-5 header-fix-height header-bg">
                     <h1 class="d-flex flex-column gap-3 text-center">
                         <span class="main-h1-top">
@@ -73,9 +45,11 @@
                             </strong>
                         </div>
                         <div>
-                            <strong>
-                                KATT IDE EGY VIRTUÁLIS SÉTÁÉRT A TEMPLOM KÖRÜL
-                            </strong>
+                            <a href="" class="link-primary">
+                                <strong>
+                                    KATT IDE EGY VIRTUÁLIS SÉTÁÉRT A TEMPLOM KÖRÜL
+                                </strong>
+                            </a>
                         </div>
                     </article>
                     <article class="d-flex flex-column gap-5 d-md-flex flex-md-row gap-md-3">
@@ -335,14 +309,18 @@
                             </strong>
                         </h3>
                         <div>
-                            <strong>
-                                Plébánia lap
-                            </strong>
+                            <a href="" class="link-primary">
+                                <strong>
+                                    Plébánia lap
+                                </strong>
+                            </a>
                         </div>
                         <div>
-                            <strong>
-                                Veled Vagyunk
-                            </strong>
+                            <a href="" class="link-primary">
+                                <strong>
+                                    Veled Vagyunk
+                                </strong>
+                            </a>
                         </div>
                     </article>
                 </section>
@@ -362,10 +340,10 @@
                     <article class="container-fluid px-0">
                         <div class="row row-cols-1 row-cols-md-3">
                         <?php
-                            foreach($this->navigacioView() as $nav) {
+                            foreach($this->navigacioView() as $key => $nav) {
                                 if($nav != "kezdőlap") {
                                     echo '
-                                        <div class="col pb-5 pb-md-4">
+                                        <div class="col '.($key != count($this->navigacioView()) - 1 ? "pb-5 pb-md-4" : "").'">
                                             <a href="#" class="img-link-position-main text-center">
                                                 <div class="ratio ratio-1x1">
                                                     <picture>
@@ -383,6 +361,18 @@
                                 }
                             }
                         ?>
+                        </div>
+                    </article>
+                </section>
+                <section class="px-3 px-md-5 text-center d-flex flex-column gap-5">
+                    <article class="d-flex d-lg-none flex-column gap-3 align-items-center text-center">
+                        <div>
+                            <span>
+                                © 2022  Szent Adalbert Plébánia, 1119 Budapest, Etele út 3.
+                            </span>
+                        </div>
+                        <div>
+                            Sütik
                         </div>
                     </article>
                 </section>
