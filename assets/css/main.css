@@ -1,3 +1,7 @@
+:root {
+    --transparent-bg: hsla(0, 0%, 0%, .5)!important;
+}
+
 .nav-fix-height, .header-fix-height {
     height: 100vh;
 }
@@ -8,29 +12,33 @@
 }
 
 .main-h1-top, .main-h1-center, .main-h1-bottom {
-    background-color: hsla(0, 0%, 0%, .7);
+    background-color: var(--transparent-bg);
     color: hsl(0, 0%, 90%);
     padding: .5rem;
 }
 
+.main-heading-2 {
+    font-size: 1.75rem!important;
+}
+
 .sub-0-heading-3 {
-    font-size: 2rem;
+    font-size: 1.5rem!important;
 }
 
 .sub-1-heading-3 {
-    font-size: 1.4rem;
+    font-size: 1.1rem!important;
 }
 
 .sub-1-heading-3-color {
-    color: hsl(180, 0%, 65%);
+    color: hsl(180, 0%, 65%)!important;
 }
 
 .sub-2-heading-3 {
-    font-size: 1.3rem;
+    font-size: 1.1rem!important;
 }
 
 .sub-3-heading-3 {
-    font-size: 1.1rem;
+    font-size: 1rem!important;
 }
 
 .img-link-position-main {
@@ -47,13 +55,13 @@
     position: absolute;
     bottom: 0;
     padding: .5rem 1rem;
-    background-color: hsla(0, 0%, 0%, .7);
-    color: hsl(0, 0%, 90%);
+    background-color: var(--transparent-bg)!important;
+    color: hsl(0, 0%, 90%)!important;
 }
 
 .logo-pic {
-    width: 90px;
-    height: 90px;
+    width: 90px!important;
+    height: 90px!important;
 }
 
 @media only screen and (min-width: 576px) {
@@ -61,8 +69,20 @@
         font-size: 2.5rem!important;
     }
     .main-heading-2 {
-        font-size: 2rem;
-    }    
+        font-size: 2rem!important;
+    }
+    .sub-0-heading-3 {
+        font-size: 2rem!important;
+    }
+    .sub-1-heading-3 {
+        font-size: 1.4rem!important;
+    }
+    .sub-2-heading-3 {
+        font-size: 1.3rem!important;
+    }
+    .sub-3-heading-3 {
+        font-size: 1.1rem!important;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -73,13 +93,13 @@
 
 @media only screen and (min-width: 992px) {
     .nav-fix-height {
-        width: 18.75rem;
+        width: 18.75rem!important;
     }
     .main-h1-center {
         font-size: 3.5rem!important;
     }
     .main-heading-2 {
-        font-size: 2.5rem;
+        font-size: 2.5rem!important;
     }
 }
 
@@ -94,20 +114,20 @@
         font-size: .9rem!important;
     }
     .copyright-font {
-        font-size: .8rem;
+        font-size: .8rem!important;
     }
 }
 
 @media only screen and (max-width: 991px) {
     .nav-fix-height {
-        height: auto;
+        height: auto!important;
     }
     .header-fix-height {
-        height: 75vh;
+        height: 75vh!important;
     }
     .logo-pic {
-        width: 60px;
-        height: 60px;
+        width: 60px!important;
+        height: 60px!important;
     }
     .udvozlo-font {
         font-size: .8rem!important;
@@ -116,7 +136,7 @@
 
 @media only screen and (max-width: 575px) {
     .header-fix-height {
-        height: 50vh;
+        height: 50vh!important;
     }
     .udvozlo-font {
         font-size: .7rem!important;

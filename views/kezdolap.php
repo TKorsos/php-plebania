@@ -13,7 +13,7 @@
     <div class="container-fluid">
         <div class="row">
             <?php include("nav.php") ?>
-            <main class="col pb-5 px-0 d-flex flex-column gap-5 z-n1">
+            <main class="col pb-5 px-0 d-flex flex-column gap-5 text-bg-light">
                 <header class="text-center d-flex justify-content-center align-items-center pb-5 header-fix-height header-bg">
                     <h1 class="d-flex flex-column gap-3 text-center">
                         <span class="main-h1-top">
@@ -27,7 +27,7 @@
                         </span>
                     </h1>
                 </header>
-                <section class="px-3 px-md-5 text-center d-flex flex-column gap-5">
+                <section class="px-3 px-md-5 pt-5 text-center d-flex flex-column gap-5">
                     <article class="d-flex flex-column gap-3">
                         <h2 class="main-heading-2">
                             <strong>
@@ -39,13 +39,13 @@
                                 Akadálymentesített
                             </strong>
                         </h3>
-                        <div>
+                        <div class="sub-1-heading-3">
                             <strong>
-                                1119 Budapest, Etele út 3
+                                1119 Budapest, <span class="text-primary">Etele</span> út <span class="text-primary">3</span>
                             </strong>
                         </div>
-                        <div>
-                            <a href="" class="link-primary">
+                        <div class="sub-1-heading-3">
+                            <a href="https://www.google.com/maps/uv?pb=!1s0x4741dda32b2451a3%3A0x7138f44b7d6959b6!3m1!7e115!4s%2Fmaps%2Fplace%2Fboldog%2Bmeszl%25C3%25A9nyi%2Bbudapest%2F%4047.4627082%2C19.040642%2C3a%2C75y%2C24.9h%2C90t%2Fdata%3D*213m4*211e1*213m2*211soMcDnmwWk92k41vH_CrgEQ*212e0*214m2*213m1*211s0x4741dda32b2451a3%3A0x7138f44b7d6959b6%3Fsa%3DX!5sboldog%20meszl%C3%A9nyi%20budapest%20-%20Google-keres%C3%A9s!15sCgIgARICCAI&imagekey=!1e2!2soMcDnmwWk92k41vH_CrgEQ&hl=hu&sa=X&ved=2ahUKEwin6uzP44T-AhVo_SoKHS40BTQQpx96BQiEARAN&viewerState=im" class="link-primary">
                                 <strong>
                                     KATT IDE EGY VIRTUÁLIS SÉTÁÉRT A TEMPLOM KÖRÜL
                                 </strong>
@@ -107,13 +107,13 @@
                         ?>
                     </article>
                 </section>
-                <section class="px-3 px-md-5 text-center d-flex flex-column gap-5">
+                <section class="px-3 px-md-5 pt-5 text-center d-flex flex-column gap-5">
                     <article class="d-flex flex-column gap-5">
                         <h2 class="main-heading-2">
                             <strong>Közelgő jubileumunk hírei</strong>
                         </h2>
                         <div class="d-flex justify-content-center">
-                            <div class="w-75 h-75">
+                            <div class="w-100">
                                 <picture>
                                     <img src="./assets/imgs/pics/minta.jpg" alt="szajkó" class="w-100">
                                 </picture>
@@ -121,7 +121,7 @@
                         </div>
                     </article>
                     <article class="d-flex flex-column gap-3 text-start">
-                        <h3 class="sub-0-heading-3">
+                        <h3 class="sub-0-heading-3 text-center text-sm-start text-primary">
                             <strong>Virtuális időutazásunk a végéhez közeledik</strong>
                         </h3>
                         <div>
@@ -135,7 +135,7 @@
                                 <strong>Itt a harmadik s egyben legjobb videó:</strong>
                             </p>
                             <div class="d-flex justify-content-center text-center">
-                                <div class="w-75 h-75">
+                                <div class="w-100">
                                     <div class="ratio ratio-16x9">
                                         <iframe src="//www.youtube-nocookie.com/embed/snHBiJQxfEE?wmode=opaque" title="YouTube video" allowfullscreen loading="lazy"></iframe>
                                     </div>
@@ -144,7 +144,7 @@
                         </div>
                     </article>
                     <article class="d-flex flex-column gap-3 text-start">
-                        <h3 class="sub-0-heading-3">
+                        <h3 class="sub-0-heading-3 text-center text-sm-start text-primary">
                             <strong>Folytatódik a virtuális időutazás</strong>
                         </h3>
                         <div>
@@ -158,7 +158,7 @@
                                 <strong>Itt a második videó:</strong>
                             </p>
                             <div class="d-flex justify-content-center text-center">
-                                <div class="w-75 h-75">
+                                <div class="w-100">
                                     <div class="ratio ratio-16x9">
                                         <iframe src="//www.youtube-nocookie.com/embed/ZVUfgbklIsU?wmode=opaque" title="YouTube video" allowfullscreen loading="lazy"></iframe>
                                     </div>
@@ -167,7 +167,7 @@
                         </div>
                     </article>
                     <article class="d-flex flex-column gap-3 text-start">
-                        <h3 class="sub-0-heading-3">
+                        <h3 class="sub-0-heading-3 text-center text-sm-start text-primary">
                             <strong>Virtuális időutazás</strong>
                         </h3>
                         <div>
@@ -181,7 +181,7 @@
                                 <strong>Itt az első videó:</strong>
                             </p>
                             <div class="d-flex justify-content-center text-center">
-                                <div class="w-75 h-75">
+                                <div class="w-100">
                                     <div class="ratio ratio-16x9">
                                         <iframe src="//www.youtube-nocookie.com/embed/0Jvt5U8YTAE?wmode=opaque" title="YouTube video" allowfullscreen loading="lazy"></iframe>
                                     </div>
@@ -190,11 +190,11 @@
                         </div>
                     </article>
                     <article class="d-flex flex-column gap-3 text-start">
-                        <h3 class="sub-0-heading-3">
+                        <h3 class="sub-0-heading-3 text-center text-sm-start text-primary">
                             <strong>Emlékkönyv ajándékba?</strong>
                         </h3>
                         <div class="d-flex justify-content-center">
-                            <div class="w-75 h-75">
+                            <div class="w-100">
                                 <picture>
                                     <img src="./assets/imgs/pics/minta.jpg" alt="szajkó" class="w-100">
                                 </picture>
@@ -202,7 +202,7 @@
                         </div>
                     </article>
                 </section>
-                <section class="px-3 px-md-5 text-center d-flex flex-column gap-5">
+                <section class="px-3 px-md-5 pt-5 text-center d-flex flex-column gap-5">
                     <article class="d-flex flex-column gap-3">
                         <h2 class="main-heading-2">
                             <strong>Aktuális hirdetéseink</strong>
@@ -210,7 +210,7 @@
                     </article>
                     <article class="d-flex flex-column gap-3">
                         <div class="d-flex justify-content-center">
-                            <div class="w-75 h-75">
+                            <div class="w-100">
                                 <picture>
                                     <img src="./assets/imgs/pics/minta.jpg" alt="szajkó" class="w-100">
                                 </picture>
@@ -219,7 +219,7 @@
                     </article>
                     <article class="d-flex flex-column gap-3">
                         <div class="d-flex justify-content-center">
-                            <div class="w-75 h-75">
+                            <div class="w-100">
                                 <picture>
                                     <img src="./assets/imgs/pics/minta.jpg" alt="szajkó" class="w-100">
                                 </picture>
@@ -228,7 +228,7 @@
                     </article>
                     <article class="d-flex flex-column gap-3">
                         <div class="d-flex justify-content-center">
-                            <div class="w-75 h-75">
+                            <div class="w-100">
                                 <picture>
                                     <img src="./assets/imgs/pics/minta.jpg" alt="szajkó" class="w-100">
                                 </picture>
@@ -237,7 +237,7 @@
                     </article>
                     <article class="d-flex flex-column gap-3">
                         <div class="d-flex justify-content-center">
-                            <div class="w-75 h-75">
+                            <div class="w-100">
                                 <picture>
                                     <img src="./assets/imgs/pics/minta.jpg" alt="szajkó" class="w-100">
                                 </picture>
@@ -245,12 +245,12 @@
                         </div>
                     </article>
                     <article class="d-flex flex-column gap-3 text-start">
-                        <h3 class="sub-0-heading-3 text-uppercase">
+                        <h3 class="sub-0-heading-3 text-uppercase text-center text-sm-start">
                             <strong>Évközi 29. vasárnap</strong>
                         </h3>
                         <p class="sub-1-heading-3">
-                            <strong class="d-flex gap-3">
-                                <span>Hirdetéseink</span>
+                            <strong class="d-flex gap-3 justify-content-center justify-content-sm-start">
+                                <span class="text-primary">Hirdetéseink</span>
                                 <span>2024. október 20.</span>
                             </strong>
                         </p>
@@ -280,7 +280,7 @@
                                 <span>
                                     November 1-én (pénteken) Mindenszentek ünnepén szentmise lesz templomunkban 7-kor, 8-kor, 9-kor és este 6-kor. Az esti szentmise után imádkozunk elhunyt szeretteinkért. Mindenszentek ünnepe parancsolt ünnep.
                                 </span>
-                                <div class="pt-3 ps-5">
+                                <div class="pt-3 ps-sm-5">
                                     Mindenszentek ünnepén altemplomunk látogatható: 8-12-ig, ill. 14-től 17:30-ig.
                                 </div>
                             </li>
@@ -288,7 +288,7 @@
                                 <span>
                                     November 2-án (szombaton) Halottak napján szentmise lesz templomunkban 8-kor, valamint az altemplomban az ott nyugvókért 9-kor. Este 6-kor vasárnap előesti szentmisét tartunk szokott módon. Este 7-kor lesz szentmise minden elhunytért. A szentmise liturgikus zenéje: Mozart: Requiem.
                                 </span>
-                                <div class="pt-3 ps-5">
+                                <div class="pt-3 ps-sm-5">
                                     Halottak napján altemplomunk látogatható: 9-12-ig, ill. 15:30- 17:30-ig.
                                 </div>
                             </li>
@@ -308,15 +308,15 @@
                                 A nyári időszakban kiadványaink megjelenése szünetel.
                             </strong>
                         </h3>
-                        <div>
-                            <a href="" class="link-primary">
+                        <div class="sub-1-heading-3">
+                            <a href="#" class="link-primary">
                                 <strong>
                                     Plébánia lap
                                 </strong>
                             </a>
                         </div>
-                        <div>
-                            <a href="" class="link-primary">
+                        <div class="sub-1-heading-3">
+                            <a href="#" class="link-primary">
                                 <strong>
                                     Veled Vagyunk
                                 </strong>
@@ -324,7 +324,7 @@
                         </div>
                     </article>
                 </section>
-                <section class="px-3 px-md-5 text-center d-flex flex-column gap-5">
+                <section class="px-3 px-md-5 pt-5 text-center d-flex flex-column gap-5">
                     <article class="d-flex flex-column gap-3">
                         <h2 class="main-heading-2">
                             <strong>
@@ -341,7 +341,7 @@
                         <div class="row row-cols-1 row-cols-md-3">
                         <?php
                             foreach($this->navigacioView() as $key => $nav) {
-                                if($nav != "kezdőlap") {
+                                if(isset($nav) && $nav != "kezdőlap") {
                                     echo '
                                         <div class="col '.($key != count($this->navigacioView()) - 1 ? "pb-5 pb-md-4" : "").'">
                                             <a href="#" class="img-link-position-main text-center">
@@ -364,8 +364,8 @@
                         </div>
                     </article>
                 </section>
-                <section class="px-3 px-md-5 text-center d-flex flex-column gap-5">
-                    <article class="d-flex d-lg-none flex-column gap-3 align-items-center text-center">
+                <section class="px-3 px-md-5 pt-5 text-center d-flex justify-content-center d-lg-none">
+                    <article class="d-flex flex-column gap-3 align-items-center text-center">
                         <div>
                             <span>
                                 © 2022  Szent Adalbert Plébánia, 1119 Budapest, Etele út 3.
