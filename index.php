@@ -15,5 +15,11 @@ if(!isset($_GET["page"])) {
 }
 else {
     $getpage = $_GET["page"];
-    $page->$getpage();
+
+    if(method_exists($page, $getpage)) {
+        $page->$getpage();
+    }
+    else {
+        $page->errorView();
+    }
 }
