@@ -12,10 +12,10 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav text-uppercase d-flex-lg flex-lg-column">
             <?php
-                foreach($this->navigacioView() as $nav) {
+                foreach($this->navigacioView() as $key => $nav) {
                     if(isset($nav)) {
                         echo '<li class="nav-item border-0">
-                                <a class="nav-link" href="#">
+                                <a class="nav-link" href="?page='.$key.'View">
                                     '.$nav.'
                                 </a>
                               </li>';

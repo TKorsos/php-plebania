@@ -338,14 +338,14 @@
                         </h3>
                     </article>
                     <article class="container-fluid px-0">
-                        <div class="row row-cols-1 row-cols-md-3">
+                        <div class="row row-cols-1 row-cols-md-3 justify-content-center">
                         <?php
                             foreach($this->navigacioView() as $key => $nav) {
                                 if(isset($nav) && $nav != "kezdőlap") {
                                     echo '
-                                        <div class="col '.($key != count($this->navigacioView()) - 1 ? "pb-5 pb-md-4" : "").'">
-                                            <a href="#" class="img-link-position-main text-center">
-                                                <div class="ratio ratio-1x1">
+                                        <div class="col '.($key != count($this->navigacioView()) ? "pb-5 pb-md-4" : "").'">
+                                            <a href="?page='.$key.'View" class="img-link-position-main text-center img-link-anim-main">
+                                                <div class="ratio ratio-1x1 img-link-anim-sub">
                                                     <picture>
                                                         <img src="./assets/imgs/pics/minta.jpg" alt="'.$nav.'" class="w-100 h-100">
                                                     </picture>
@@ -364,18 +364,7 @@
                         </div>
                     </article>
                 </section>
-                <section class="px-3 px-md-5 pt-5 text-center d-flex justify-content-center d-lg-none">
-                    <article class="d-flex flex-column gap-3 align-items-center text-center">
-                        <div>
-                            <span>
-                                © 2022  Szent Adalbert Plébánia, 1119 Budapest, Etele út 3.
-                            </span>
-                        </div>
-                        <div>
-                            Sütik
-                        </div>
-                    </article>
-                </section>
+                <?php include("copyright.php") ?>
             </main>
         </div>
     </div>

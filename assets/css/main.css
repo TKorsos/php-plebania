@@ -1,12 +1,23 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
 :root {
-    --transparent-bg: hsla(0, 0%, 0%, .5)!important;
+    --transparent-bg: hsla(0, 0%, 0%, .5);
 }
 
 .nav-fix-height, .header-fix-height {
     height: 100vh;
 }
 
+.header-fix-height-sub {
+    height: 50vh!important;
+}
+
 .header-bg {
+    background: url("./../imgs/bg/templom_bg.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.header-sub-bg {
     background: url("./../imgs/bg/templom_bg.jpg") no-repeat;
     background-size: 100% 100%;
 }
@@ -59,9 +70,34 @@
     color: hsl(0, 0%, 90%)!important;
 }
 
+.img-link-anim-main {
+    overflow: hidden;
+}
+
+.img-link-anim-sub {
+    transition: all .5s;
+}
+
+.img-link-anim-sub:hover {
+    transform: scale(1.3);
+}
+
 .logo-pic {
     width: 90px!important;
     height: 90px!important;
+}
+
+.google-map-main {
+    position:relative;
+    padding-bottom:72.75%;
+}
+
+.google-map-frame {
+    position:absolute;
+    top:0%;
+    left:0%;
+    width:100%;
+    height:100%;
 }
 
 @media only screen and (min-width: 576px) {
