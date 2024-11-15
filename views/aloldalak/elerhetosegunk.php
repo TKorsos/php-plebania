@@ -51,10 +51,10 @@
                             <div class="col-lg-4">
                                 <div class="container-fluid">
                                     <div class="row">
-                                        <div class="col-2">
+                                        <div class="col-2 col-sm-1 col-md-auto col-lg-2">
                                             <i class="bi bi-geo-alt sub-1-heading-3"></i>
                                         </div>
-                                        <div class="col-10 pb-3">
+                                        <div class="col-10 col-sm-11 col-lg-10">
                                             <div class="d-flex flex-column gap-2">
                                                 <h3 class="sub-1-heading-3 sub-1-heading-3-color">
                                                     Cím:
@@ -66,10 +66,10 @@
                                                 </h3>
                                             </div>
                                         </div>
-                                        <div class="col-2">
+                                        <div class="col-2 col-sm-1 col-md-auto col-lg-2">
                                             <i class="bi bi-telephone sub-1-heading-3"></i>
                                         </div>
-                                        <div class="col-10 pb-3">
+                                        <div class="col-10 col-sm-11 col-lg-10">
                                             <div class="d-flex flex-column gap-2">
                                                 <h3 class="sub-1-heading-3 sub-1-heading-3-color">
                                                     Plébánia iroda telefon:
@@ -89,10 +89,10 @@
                                                 </h3>
                                             </div>
                                         </div>
-                                        <div class="col-2">
+                                        <div class="col-2 col-sm-1 col-md-auto col-lg-2">
                                             <i class="bi bi-envelope sub-1-heading-3"></i>
                                         </div>
-                                        <div class="col-10 pb-3">
+                                        <div class="col-10 col-sm-11 col-lg-10">
                                             <div class="d-flex flex-column gap-2">
                                                 <h3 class="sub-1-heading-3 sub-1-heading-3-color">
                                                     E-mail:
@@ -112,10 +112,10 @@
                                                 </h3>
                                             </div>
                                         </div>
-                                        <div class="col-2">
+                                        <div class="col-2 col-sm-1 col-md-auto col-lg-2">
                                             <i class="bi bi-cash-stack sub-1-heading-3"></i>
                                         </div>
-                                        <div class="col-10 pb-3">
+                                        <div class="col-10 col-sm-11 col-lg-10">
                                             <div class="d-flex flex-column gap-2">
                                                 <h3 class="sub-1-heading-3 sub-1-heading-3-color">
                                                     Bankszámla:

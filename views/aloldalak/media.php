@@ -16,7 +16,7 @@
             <main class="col pb-5 px-0 d-flex flex-column gap-5 text-bg-light">
                 <header class="header-fix-height-sub header-sub-bg"></header>
                 <section class="px-3 px-md-5 pt-5 text-center d-flex flex-column gap-5">
-                    <article class="d-flex flex-column gap-3">
+                    <article class="d-flex flex-column gap-5">
                         <h2 class="main-heading-2">
                             <strong>
                                 Média megjelenéseink
@@ -66,20 +66,20 @@
                             </strong>
                         </h2>
                     </article>
-                    <article class="container-fluid px-0">
-                        <div class="row row-cols-1 row-cols-md-2 g-5">
-                            <div class="col">
-                                <div class="col pb-5 pb-md-4">
-                                    <a href="https://bizdramagad.hu/cikkek/hitatadas-es-hitoktatas-hogyan-segithetok-a-csaladok-/" class="img-link-position-main img-link-anim-main">
+                    <article class="d-flex flex-column gap-5">
+                        <div class="d-flex flex-column flex-lg-row gap-5 gap-md-4 media-bizdramagad-felezo">
+                            <div class="d-flex">
+                                <a href="https://bizdramagad.hu/cikkek/hitatadas-es-hitoktatas-hogyan-segithetok-a-csaladok-/" class="img-link-position-main img-link-anim-main">
+                                    <div>
                                         <div class="w-100 img-link-anim-sub">
                                             <picture>
                                                 <img src="./assets/imgs/pics/minta.jpg" alt="szajkó" class="w-100 h-100">
                                             </picture>
                                         </div>
-                                    </a>
-                                </div>
+                                    </div>
+                                </a>
                             </div>
-                            <div class="col">
+                            <div class="d-flex flex-column gap-3">
                                 <h3 class="sub-1-heading-3">
                                     <strong>
                                         Hitátadás és hitoktatás - hogyan segíthetők a családok?
@@ -89,18 +89,20 @@
                                     Kötelező hit- és erkölcstan. A szülő a hitoktatást választja. Nem jár templomba, de úgy érzi, ott biztosan jót tanul a gyermeke, mert megismerte az óvodában a hitoktatót és a barátok is azt választották. Esetleg vannak emlékei a gyerekkorából, de ő már nem tanult hittant. Mit adhat a családnak, gyereknek és szülőnek a hitoktatás? Hogyan lehet ezt úgy csinálni, hogy elvezessen a hitre?
                                 </p>
                             </div>
-                            <div class="col">
-                                <div class="col pb-5 pb-md-4">
-                                    <a href="https://bizdramagad.hu/cikkek/hitatadas-es-hitoktatas-hogyan-segithetok-a-csaladok-/" class="img-link-position-main img-link-anim-main">
+                        </div>
+                        <div class="d-flex flex-column flex-lg-row gap-5 gap-md-4 media-bizdramagad-felezo">
+                            <div class="d-flex">
+                                <a href="https://bizdramagad.hu/cikkek/hitatadas-es-hitoktatas-hogyan-segithetok-a-csaladok-/" class="img-link-position-main img-link-anim-main">
+                                    <div>
                                         <div class="w-100 img-link-anim-sub">
                                             <picture>
                                                 <img src="./assets/imgs/pics/minta.jpg" alt="szajkó" class="w-100 h-100">
                                             </picture>
                                         </div>
-                                    </a>
-                                </div>
+                                    </div>
+                                </a>
                             </div>
-                            <div class="col">
+                            <div class="d-flex flex-column gap-3">
                                 <h3 class="sub-1-heading-3">
                                     <strong>
                                         Hogyan vigyük közelebb a gyermekünket Istenhez?
@@ -140,7 +142,7 @@
                                 </picture>
                             </div>
                         </div>
-                        <div class="d-flex flex-column gap-3 text-center">
+                        <div class="d-flex flex-column gap-3 w-100 text-center">
                             <h3 class="sub-1-heading-3">
                                 <strong>
                                     A Mária Rádió szentmise közvetítései templomunkból
